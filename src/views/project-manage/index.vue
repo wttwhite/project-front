@@ -80,6 +80,7 @@ export default {
       TableColumnList: Object.freeze(TableColumnList),
       pageUrl: '/rpc/asset/card/page',
       exportUrl: '/rpc/asset/card/export',
+      pageData: [{ id: 1 }],
     }
   },
   methods: {

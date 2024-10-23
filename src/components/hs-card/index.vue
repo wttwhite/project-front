@@ -30,9 +30,6 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.hs-card + .hs-card {
-  margin-top: 16px;
-}
 .hs-card.never-border {
   border: none;
 }
