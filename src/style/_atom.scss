@@ -1,0 +1,28 @@
+.full {
+  width: 100%;
+  height: 100%;
+}
+.ovh {
+  overflow: hidden;
+}
+.pad16 {
+  padding: 16px;
+}
+[mt16] {
+  margin-top: 16px !important;
+}
+[ml16] {
+  margin-left: 16px;
+}
+[mr16] {
+  margin-right: 16px;
+}
+[fullWidth] {
+  width: 100%;
+}
+[fullHeight] {
+  height: 100%;
+}
+[inlineBlock] {
+  display: inline-block;
+}

@@ -1,0 +1,17 @@
+/// 线上已有的样式，线下么有的
+.app-box {
+  // font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+  // font-weight: 400;
+}
+.el-tree-node {
+  // 线上去掉了
+  // margin-top: 8px;
+}
+// 所有表格表头不加粗-----线上已经改掉了，但是本地index.css中没有
+.el-table th {
+  font-weight: 500;
+  font-size: 14px;
+}
+.el-table .el-table__cell {
+  height: 48px;
+}

@@ -1,0 +1,11 @@
+// 字体与输入框上下间距
+.el-form--label-top .el-form-item__label {
+  padding-bottom: 2px;
+}
+// 与下一行form间距, 不用16了，出校验太挤了，用回原来的18
+// .el-form-item--small.el-form-item {
+//   margin-bottom: 16px;
+// }
+.el-form-item__label {
+  color: #0f1114;
+}

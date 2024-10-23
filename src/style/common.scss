@@ -1,0 +1,74 @@
+.common-descriptions {
+  .el-descriptions-item__label {
+    font-size: 14px;
+    color: #8e959f;
+    line-height: 22px;
+  }
+  .el-descriptions-item__content {
+    line-height: 22px;
+    color: #363c44;
+  }
+  .el-descriptions--small:not(.is-bordered) .el-descriptions-item {
+    padding-bottom: 16px;
+  }
+}
+
+.textarea-detail-break-all {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.common-form-row {
+  padding-left: 4px;
+  > .el-col {
+    padding-right: 1/24 * 100%;
+    // padding-right: 24px;
+    .el-form-item__content {
+      display: flex !important;
+    }
+  }
+}
+// 小问号位置偏上
+.top-question {
+  vertical-align: top;
+}
+// 一行省略号
+.common-ellipsis {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  word-break: normal !important;
+}
+// 空态文字
+.common-empty-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  color: #8e959f;
+}
+// 在竖向表单中，使用横向表单
+.common-line-form-item {
+  display: flex !important;
+  .el-form-item__label {
+    flex-shrink: 0;
+    margin-right: 8px;
+    color: #0f1114;
+  }
+}
+.common-table-circle {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+// 比dialog高
+.el-message {
+  z-index: 3000 !important;
+}
+.common-unit {
+  color: #8492a6;
+}

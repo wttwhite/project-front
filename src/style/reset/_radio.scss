@@ -1,0 +1,19 @@
+.el-radio.is-bordered {
+  min-width: 90px;
+}
+// 俩radio间距24px
+.el-radio.is-bordered {
+  margin-right: 16px;
+}
+.el-radio.is-bordered + .el-radio.is-bordered {
+  margin-left: 0;
+}
+// 占一行的radio折行，上下间距
+// 和下一个表单项间距也会变大
+.common-line-radio .el-radio.is-bordered {
+  margin-bottom: 8px;
+}
+// 原inline-block使得外层el-form高度33px，比原来的32px大，后续form错位
+// .el-radio-group {
+//   display: block;
+// }

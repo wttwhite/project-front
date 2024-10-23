@@ -1,0 +1,10 @@
+.el-dialog__header {
+  background: #f9fbfc;
+  padding-bottom: 20px;
+  font-weight: bold; // 思源字体是500
+  font-size: 18px;
+  color: #0f1114;
+  .el-dialog__headerbtn {
+    top: 23px;
+  }
+}

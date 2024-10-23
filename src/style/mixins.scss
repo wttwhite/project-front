@@ -1,0 +1,23 @@
+// 基础文字样式
+@mixin base-text($font-size: 14px, $color: #363c44, $font-weight: 400) {
+  font-family: Source Han Sans, Source Han Sans;
+  text-align: left;
+  font-style: normal;
+  text-transform: none;
+  font-weight: $font-weight;
+  font-size: $font-size;
+  color: $color;
+}
+// flex居中
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// 溢出隐藏
+@mixin overflow-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

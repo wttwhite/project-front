@@ -1,0 +1,44 @@
+// 表格的样式，如果表格改好了，就可以去掉了
+
+// 每行49px
+.el-table th.el-table__cell {
+  padding: 12px 0;
+  color: #8e959f;
+  > .cell {
+    display: block;
+  }
+}
+.el-table td.el-table__cell {
+  padding: 8px 0;
+}
+// 多选框对齐  列加center会对不齐
+.el-table .el-table-column--selection .cell {
+  padding-left: 10px;
+  .el-checkbox {
+    padding-left: 6px;
+  }
+}
+
+// .el-table__footer-wrapper tbody td.el-table__cell,
+// .el-table__header-wrapper tbody td.el-table__cell {
+//   background-color: transparent;
+// }
+.el-table .el-button-ellipsis {
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  word-break: normal !important;
+}
+
+.el-table {
+  color: #0f1114;
+}
+// .el-table .cell {
+//   font-size: 14px !important;
+// }
+.el-table--small {
+  font-size: 14px !important;
+}
